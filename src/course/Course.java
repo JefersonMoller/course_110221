@@ -5,6 +5,10 @@
  */
 package course;
 
+import enums.Order;
+import enums.OrderStatus;
+import java.util.Date;
+
 /**
  *
  * @author j
@@ -15,11 +19,10 @@ public class Course {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("hasfjhjkfhksfk");
-        
-        for(int i=0;i<10;i++){
-            System.out.println("dale gremio");
-        }
+       Order order = new Order(1080, new Date(), OrderStatus.valueOf("pending_payment"));
+       
+        System.out.println(order);
+       
     }
     
 }
