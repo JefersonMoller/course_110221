@@ -16,6 +16,10 @@ public class Course {
      */
     public static void main(String[] args) {
         System.out.println("hasfjhjkfhksfk");
+        
+        for(int i=0;i<10;i++){
+            System.out.println("dale gremio");
+        }
     }
     
 }
